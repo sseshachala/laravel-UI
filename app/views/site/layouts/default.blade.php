@@ -6,7 +6,7 @@
 		<meta charset="utf-8" />
 		<title>
 			@section('title')
-			Laravel 4 Sample Site
+			XervDock - Test drive Docker Images on Amazon AWS
 			@show
 		</title>
 		<meta name="keywords" content="your, awesome, keywords, here" />
@@ -108,13 +108,13 @@
 
 	    <div id="footer">
 	      <div class="container">
-	      <p class="muted credit">FLWOutdoors <a href="http://www.flwoutdoors.com>flwoutdoors</a>.</p>
+	      <p class="muted credit">XervDock <a href="http://www.xervdock.com>XervDock</a>.</p>
 		</div>
 	    </div>
 
 		<!-- Javascripts -->
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
    
