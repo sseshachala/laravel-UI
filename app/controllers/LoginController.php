@@ -268,7 +268,7 @@ class LoginController extends BaseController {
 	//Register User
 	public function storeRegister() {
 		// Gather Sanitized Input
-		$input = array('username' => Input::get('username'), 'email' => Input::get('email'), 'password' => Input::get('password'), 'password_confirmation' => Input::get('password_confirmation'));
+		$input = array('username' => Input::get('username'), 'username' => Input::get('username'), 'email' => Input::get('email'), 'password' => Input::get('password'), 'password_confirmation' => Input::get('password_confirmation'));
 
 		// Set Validation Rules
 		$rules = array('username' => 'required|min:4|max:20|unique:profile,username', 'email' => 'required|min:4|max:32|email', 'password' => 'required|min:6|confirmed', 'password_confirmation' => 'required');
