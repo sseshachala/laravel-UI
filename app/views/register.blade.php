@@ -17,7 +17,7 @@
 	<input type="password"  placeholder="Confirm Password" required="" id="password" name="password_confirmation"/>
 </div>
 <div>
-	<input type="submit" value="Register" />
+	<input class="btn btn-primary" type="submit" value="Register" />
 	<a href="/forgotpassword">Forgot password?</a>
 	<a href="/login">Login</a>
 </div>
