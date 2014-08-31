@@ -6,18 +6,26 @@
 <html lang="en">
 	<!--<![endif]-->
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   		<meta name="description" content="" />
+    	<meta name="author" content="" />
 		<title>XervDock - Test drive Docker Images on Amazon AWS</title>
-		<!--
+		
 		<link rel="stylesheet" type="text/css" href="styles.css" />
-		-->
+		
 		<link rel="stylesheet" type="text/css" href="/zocial/zocial.css" />
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- GOOGLE FONT -->
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+    	
 		<style type="text/css">
 			.zocial{
 				width: 220px;
