@@ -19,8 +19,15 @@
 
 		<!-- CSS
 		================================================== -->
-        <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.min.css')}}">
-        <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap-theme.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+		
+		<link rel="stylesheet" type="text/css" href="/zocial/zocial.css" />
+		<!-- Latest compiled and minified CSS -->
+		<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- GOOGLE FONT -->
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		
 
 		<style>
         body {
@@ -106,8 +113,11 @@
 	    </div>
 
 		<!-- Javascripts -->
-    <script src="{{asset('assets/js/jquery-2.1.1.min.js')}}"></script>
-	<script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   
 
         @yield('scripts')
 	</body>
