@@ -20,12 +20,13 @@
 <br/>
                                   <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
-                                            <input type="text" class="form-control" value="{{Input::old('email')}}" placeholder="Enter Email" required="" id="username" name="email"/>
-                                        </div>
+                                            <input type="text" class="form-control" value="{{Input::old('username')}}" placeholder="Enter Username" required="" id="username" name="username"/>
+                                       
+                                          </div>
                                          <div class="form-group input-group">
                                             <span class="input-group-addon">@</span>
-                                            <input type="text" class="input-xlarge" value="{{Input::old('username')}}" placeholder="Enter Username" required="" id="username" name="username"/>
-                                        </div>
+                                             <input type="text" class="form-control" value="{{Input::old('email')}}" placeholder="Enter Email" required="" id="username" name="email"/>
+                                         </div>
                                       <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
                                             <input type="password"  class="form-control" placeholder="Enter Password" required="" id="password" name="password"/>
@@ -38,7 +39,7 @@
 	                                    <input class="btn btn-primary" type="submit" value="Register" />
 	                                    
 	                                    <a class="btn btn-warning" href="/forgotpassword">Forgot password?</a>
-	                                    
+	                                   </hr>
 	                                    Already Registered ?  <a class="btn btn-success" href="/login">Login</a>
                                     </div>
                                     {{Form::close()}}
