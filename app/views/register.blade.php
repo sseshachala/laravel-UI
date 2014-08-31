@@ -18,17 +18,13 @@
                             <div class="panel-body">
                                 {{Form::open(array('class'=>'form-horizontal', 'url'=>'/register','method'=>'post' ))}}
 <br/>
-                                        <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"  ></i></span>
-                                            <input type="text" class="form-control" placeholder="Your Name" />
-                                        </div>
-                                     <div class="form-group input-group">
+                                  <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
                                             <input type="text" class="form-control" value="{{Input::old('email')}}" placeholder="Enter Email" required="" id="username" name="email"/>
                                         </div>
                                          <div class="form-group input-group">
                                             <span class="input-group-addon">@</span>
-                                            <input type="text" class="form-control" value="{{Input::old('email')}}" placeholder="Your Email" required="" id="username" name="email"/>
+                                            <input type="text" class="input-xlarge" value="{{Input::old('username')}}" placeholder="Enter Username" required="" id="username" name="username"/>
                                         </div>
                                       <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
@@ -36,13 +32,13 @@
                                         </div>
                                      <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
-                                            <input type="password"  class="input-xlarge" placeholder="Confirm Password" required="" id="password" name="password_confirmation"/>
+                                            <input type="password"  class="form-control" placeholder="Confirm Password" required="" id="password" name="password_confirmation"/>
                                         </div>
                                     <div class="form-group">
 	                                    <input class="btn btn-primary" type="submit" value="Register" />
-	                                    <hr />
+	                                    
 	                                    <a class="btn btn-warning" href="/forgotpassword">Forgot password?</a>
-	                                    <hr />
+	                                    
 	                                    Already Registered ?  <a class="btn btn-success" href="/login">Login</a>
                                     </div>
                                     {{Form::close()}}
