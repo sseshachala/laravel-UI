@@ -8,7 +8,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>KodeInfo Secure Login System</title>
+		<!--
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+		-->
 		<link rel="stylesheet" type="text/css" href="/zocial/zocial.css" />
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
