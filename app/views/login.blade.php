@@ -19,16 +19,17 @@
 					<h1>Login Form</h1>
 					<div class="form-group input-group">
                     	<span class="input-group-addon">@</span>
-						<input value="{{Input::old('identity')}}" class="form-group" type="text" placeholder="Username/Email" required="" id="username" name="identity"/>
+						<input value="{{Input::old('identity')}}" class="form-control" type="text" placeholder="Username/Email" required="" id="username" name="identity"/>
 					</div>
 					<div class="form-group input-group">
                     	<span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
-						<input type="password" class="form-group" placeholder="Password" required="" id="password" name="password"/>
+						<input type="password" class="form-control" placeholder="Password" required="" id="password" name="password"/>
 					</div>
-					<div>
-						<input type="submit" value="Log in" />
-						<a href="/forgotpassword">Lost your password?</a>
-						<a href="/register">Register</a>
+					<div class="form-group">
+						<input class="btn btn-success" type="submit" value="Log in" />
+						<a class="btn btn-warning" href="/forgotpassword">Lost your password?</a>
+						</hr>
+						<a class="btn btn-primary" href="/register">Register</a>
 					
 					</div>
 					
