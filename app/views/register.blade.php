@@ -2,7 +2,7 @@
 
 @section('content')
 
-{{Form::open(array(class="form-horizontal" 'url'=>'/register','method'=>'post' ))}}
+{{Form::open(array('class'=>'form-horizontal', 'url'=>'/register','method'=>'post' ))}}
 <h1>Register</h1>
 <div class="form-group">
 	<input type="text" class="input-xlarge" value="{{Input::old('email')}}" placeholder="Enter Email" required="" id="username" name="email"/>
